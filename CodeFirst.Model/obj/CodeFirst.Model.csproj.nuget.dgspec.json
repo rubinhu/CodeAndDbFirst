@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\2008L1908\\source\\repos\\CodeAndDbFirst\\CodeFirst.Model\\CodeFirst.Model.csproj": {}
+    "D:\\SourceCode\\GitHub.com\\rubin\\CodeAndDbFirst\\CodeFirst.Model\\CodeFirst.Model.csproj": {}
   },
   "projects": {
-    "C:\\Users\\2008L1908\\source\\repos\\CodeAndDbFirst\\CodeFirst.Model\\CodeFirst.Model.csproj": {
+    "D:\\SourceCode\\GitHub.com\\rubin\\CodeAndDbFirst\\CodeFirst.Model\\CodeFirst.Model.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\2008L1908\\source\\repos\\CodeAndDbFirst\\CodeFirst.Model\\CodeFirst.Model.csproj",
+        "projectUniqueName": "D:\\SourceCode\\GitHub.com\\rubin\\CodeAndDbFirst\\CodeFirst.Model\\CodeFirst.Model.csproj",
         "projectName": "CodeFirst.Model",
-        "projectPath": "C:\\Users\\2008L1908\\source\\repos\\CodeAndDbFirst\\CodeFirst.Model\\CodeFirst.Model.csproj",
+        "projectPath": "D:\\SourceCode\\GitHub.com\\rubin\\CodeAndDbFirst\\CodeFirst.Model\\CodeFirst.Model.csproj",
         "packagesPath": "C:\\Users\\2008L1908\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\2008L1908\\source\\repos\\CodeAndDbFirst\\CodeFirst.Model\\obj\\",
+        "outputPath": "D:\\SourceCode\\GitHub.com\\rubin\\CodeAndDbFirst\\CodeFirst.Model\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\2008L1908\\AppData\\Roaming\\NuGet\\NuGet.Config",
