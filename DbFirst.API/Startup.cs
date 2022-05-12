@@ -1,4 +1,5 @@
 using DbFirst.API.Models.PostgreSQL;
+using DbFirst.API.Utils;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Mvc;
@@ -57,6 +58,10 @@ namespace DbFirst.API
             {
                 endpoints.MapControllers();
             });
+
+            // Migrations
+            MigrationHelper migrationHelper = new MigrationHelper();
+            migrationHelper.ExecuteMigration();
         }
     }
 }
