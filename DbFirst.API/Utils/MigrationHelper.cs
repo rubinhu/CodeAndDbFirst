@@ -23,6 +23,9 @@ namespace DbFirst.API.Utils
         /// </summary>
         public void ExecuteMigration()
         {
+            // drop tables for migration test, it will be removed in your code.
+            this.DropTablsForTest();
+
             // create migration record
             CreateTableForMigration();
 
@@ -55,6 +58,17 @@ namespace DbFirst.API.Utils
                 sqlHelper.Execute(sqls, parms);
             }
 
+        }
+
+        /// <summary>
+        /// Drop tables for migration test
+        /// </summary>
+        private void DropTablsForTest()
+        {
+            string sql = "DROP TABLE \"__EFMigrationsHistory\" ; DROP TABLE \"rubin_test\" ; DROP TABLE \"rubin_test1\" ; DROP TABLE \"rubin_test2\" ;";
+
+            SqlHelper sqlHelper = new SqlHelper(new WZSHRContext());
+            sqlHelper.Execute(sql, null);
         }
 
         /// <summary>
